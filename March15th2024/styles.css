@@ -17,14 +17,22 @@ img {
     display: block;
 }
 
-/* Style rules for navigation area */
+/* Style rules for header */
 
-nav {
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #8a5520;
+    color: #f6eee4;  
+    font-size: 30px;
+  }
+
+/* nav {
     background-color: #8a5520;
 }
 
 nav ul {
-        list-style-type:none;
+        list-style-type:armenian;
         margin: 0;
         text-align: center;
     }
@@ -35,6 +43,7 @@ nav li {
         font-size: 2.5em;
         font-family: Geneva, Arial, sans-serif;
         font-weight: bold;
+        text-align: center;
     }
     
 nav li a {
@@ -42,46 +51,31 @@ nav li a {
         display:flex;
         color: #f6eee4;      
         padding: 0.5em 0.5em;
-        text-decoration:wavy;
-    }
+        text-decoration:none;
+    } */
 
 /* Style rules for main content */
 
 main {
-  padding: 2%;
-  font-family: Verdana, Arial, sans-serif;
-}
+    padding: 2%;
+    font-family: Verdana, Arial, sans-serif;
+  }
+  
+  main p {
+    font-size: 1.25em;
+  }
+  
+  main h3 {
+    padding-top: 2%;
+  }
+  
+  main ul {
+    list-style-type: none;
+  }
 
-main p {
-  font-size: 1.25em;
-}
 
-main h3 {
-  padding-top: 2%;
-}
 
-main ul {
-  list-style-type: square;
-}
 
-/* Style rules for class and id selectors*/
-
-.link {
-  color:#4d3319;
-  text-decoration: none;
-  font-weight: bold;
-  font-style: italic;
-}
-
-.action {
-  font-size: 1.75em;
-  font-weight: bold;
-  text-align: center;
-}
-
-#contact {
-  text-align: center;
-}
 
 /* Style rules for footer content*/
 
