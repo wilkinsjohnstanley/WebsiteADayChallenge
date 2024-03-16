@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Avant Garde";
+}
+
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height:100vh;
+}
+
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+
+h1{
+    color:whitesmoke;
+    text-shadow: 1px 1px 4px #000;
+}
+
+.one{
+   background-image: url('castleinthesky.jpg');
+}
+
+.two{
+    background-image: url('totorofirefly.jpg');
+}
+
+.three{
+    background-image: url('kiki.png');
+}
+
+.four{
+    background-image: url('only.jpg');
+}
+
+.five{
+    background-image: url('porco.jpg');
+}
+.six{
+    background-image: url('pom.jpg');
+}
+.seven{
+    background-image: url('Whisper-of-the-Heart-Poster-Japanese-Movie-1.jpg');
+}
+.eight{
+    background-image: url('Kodama_Animation.gif');
+}
+.nine{
+    background-image: url('yamadas.jpg');
+}
+.ten{
+    background-image: url('spirited.jpg');
+}
+.eleven{
+    background-image: url('cat.jpg');
+}
+.twelve{
+    background-image: url('howl.jpg');
+}
+.thirteen{
+    background-image: url('earthsea.jpg');
+}
+.fourteen{
+    background-image: url('Ponyo.png');
+}
+.fifteen{
+    background-image: url('arrietty.png');
+}
+.sixteen{
+    background-image: url('poppy.jpg');
+}
+.seventeen{
+    background-image: url('windprincess.jpg');
+}
+.eighteen{
+    background-image: url('marnie.jpg');
+}
+.nineteen{
+    background-image: url('heron.jpg');
+}
