@@ -6,42 +6,59 @@
     <title>Studio Ghibli</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+    <nav>
+
+        <ul class="ham">
+            <li onclick=showSidebar()>
+                <a><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="40"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+            </li>
+        </ul>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="40"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+          <li><a href="#ichi"><button class="button-31" type="button">1986</button></a></li>
+          <li><a href="#ni"><button class="button-31"type="button">1988</button></a></li>
+          <li><a href="#san"><button class="button-31"type="button">1989</button></a></li>
+          <li> <a href="#yon"><button class="button-31"type="button">1991</button></a></li>
+          <li> <a href="#go"><button class="button-31"type="button" >1992</button></a></li>
+          <li> <a href="#roku"><button class="button-31"type="button">1994</button></a></li>
+          <li><a href="#nana"><button class="button-31"type="button" >1995</button></a></li>
+          <li><a href="#hachi"><button class="button-31"type="button">1997</button></a></li>
+          <li><a href="#kyuu"><button class="button-31"type="button" >1999</button></a></li>
+          <li><a href="#juu"><button class="button-31"type="button">2001</button></a></li>
+          <li><a href="#juuichi"><button class="button-31" type="button">2002</button></a></li>
+          <li><a href="#juuni"><button class="button-31"type="button" >2004</button></a></li>
+          <li><a href="#juusan"><button class="button-31"type="button">2006</button></a></li>
+          <li><a href="#juuyon"><button class="button-31"type="button">2008</button></a></li>
+          <li><a href="#juugo"><button class="button-31"type="button" >2010</button></a></li>
+          <li><a href="#juuroku"><button class="button-31"type="button">2011</button></a></li>
+          <li><a href="#juunana"><button class="button-31"type="button">2013</button></a></li>
+          <li><a href="#juuhachi"><button class="button-31"type="button">2014</button></a></li>
+          <li><a href="#juukyuu"><button class="button-31"type="button" >2023</button></a></li>
+        </ul>
+      </nav>
+
+<script>
+ function showSidebar(){
+    const sidebar=document.querySelector('.sidebar')
+    sidebar.style.display='flex'
+    const ham=document.querySelector('.ham')
+    ham.style.display='none'
+
+ }
+
+ function hideSidebar(){
+    const sidebar=document.querySelector('.sidebar')
+    sidebar.style.display='none'
+    const ham=document.querySelector('.ham')
+    ham.style.display='flex'
+
+ }
+
+</script>
     <div class="container">
-      
-        <section class="zero">
-            <!-- Buttons at topic for quick access to years !-->
-        <nav> 
-            <h1>Studio Ghibli Movies by Year: Click to Jump to a Release!</h1>
-            <ul>
-            <li><a href="#ichi"><button class="button-31" type="button">1986</button></a></li>
-            <li><a href="#ni"><button class="button-31"type="button">1988</button></a></li>
-            <li><a href="#san"><button class="button-31"type="button">1989</button></a></li>
-            <li> <a href="#yon"><button class="button-31"type="button">1991</button></a></li>
-            <li> <a href="#go"><button class="button-31"type="button" >1992</button></a></li>
-            <li> <a href="#roku"><button class="button-31"type="button">1994</button></a></li>
-            <li><a href="#nana"><button class="button-31"type="button" >1995</button></a></li>
-            <li><a href="#hachi"><button class="button-31"type="button">1997</button></a></li>
-            <li><a href="#kyuu"><button class="button-31"type="button" >1999</button></a></li>
-            <li><a href="#juu"><button class="button-31"type="button">2001</button></a></li>
-            <li><a href="#juuichi"><button class="button-31" type="button">2002</button></a></li>
-            <li><a href="#juuni"><button class="button-31"type="button" >2004</button></a></li>
-            <li><a href="#juusan"><button class="button-31"type="button">2006</button></a></li>
-            <li><a href="#juuyon"><button class="button-31"type="button">2008</button></a></li>
-            <li><a href="#juugo"><button class="button-31"type="button" >2010</button></a></li>
-            <li><a href="#juuroku"><button class="button-31"type="button">2011</button></a></li>
-            <li><a href="#juunana"><button class="button-31"type="button">2013</button></a></li>
-            <li><a href="#juuhachi"><button class="button-31"type="button">2014</button></a></li>
-            <li><a href="#juukyuu"><button class="button-31"type="button" >2023</button></a></li>
 
-
-
-
-
-
-</ul></nav>  
-
-        </section>
 
         <section class="one">    
            
