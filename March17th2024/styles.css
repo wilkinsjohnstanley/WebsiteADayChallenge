@@ -143,9 +143,7 @@ img{
     height: auto;
 }
 
-section.zero{
-    height:fit-content;
-}
+
 
 
 
@@ -160,6 +158,9 @@ section{
 h1{
     color:whitesmoke;
     text-shadow: 1px 1px 4px #000;
+}
+.zero{
+    background-image: url('nausicaa.jpg');
 }
 
 .one{
