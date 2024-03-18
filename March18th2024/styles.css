@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body{
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+nav{
+    opacity:.75;
+    box-shadow: 3px 3px 5px rgba(0,0,0,.1);
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+nav li{
+    height: 50px;
+    display: inline;
+    float:right;
+    font-size: 20em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+nav li a {
+    height:100%;
+    display: flex;
+    color: #222;    
+    padding: 0 0px;
+    text-decoration: none;
+    align-items: center; 
+}
+nav li a:hover{
+    background-color:white;
+ 
+    
+}
+nav li:first-child{
+    margin-right:auto;
+}
+.ham{
+    position:fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 40px;
+    z-index: 999;
+    background-color: rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+.sidebar{
+    position:fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 40px;
+    z-index: 999;
+    background-color: rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-size-adjust: 20%;
+
+}
+.sidebar li{
+    width: 100%;
+}
+.sidebar a{
+    width: 100%;
+}
+
+
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height:100vh;
+    scroll-behavior:smooth;
+    background-color: #222;
+}
+
+section{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+
+h1{
+    color:whitesmoke;
+    text-shadow: 1px 1px 4px #000;
+}
+
+.about{
+background-color: rgb(35, 126, 206);
+}
+.location{
+    background-color: rgb(52, 104, 54);
+
+}
+.items{
+    background-color: rgb(206, 140, 35);
+
+}
+.contact{
+    background-color: rgb(206, 35, 35);
+
+}
+
+/* CSS */
+.button-31 {
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+    
+
+  }
+  
+  .button-31:hover,
+  .button-31:focus {
+    opacity: .75;
+  }
