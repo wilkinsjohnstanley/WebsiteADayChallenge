@@ -1,0 +1,40 @@
+.flexContainer{
+    display: flex;
+    flex-direction: column;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+
+    scroll-behavior:smooth;
+    background-color: #222;
+}
+.blueBox{
+    background-color: blue;
+    width: 1000px;
+    height: 1000px;
+
+}
+.redBox{
+    background-color: red;
+    width: 1000px;
+    height: 1000px;
+}
+.greenBox{
+    background-color: green;
+    width: 1000px;
+    height: 1000px;
+}
+.yellowBox{
+    background-color: yellow;
+    width: 1000px;
+    height: 1000px;
+}
+.purpleBox{
+    background-color: purple;
+    width: 1000px;
+    height: 1000px;
+}
+.orangeBox{
+    background-color: orange;
+    width: 1000px;
+    height: 1000px;
+}
